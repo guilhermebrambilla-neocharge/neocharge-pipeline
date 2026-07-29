@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.neocharge.pipeline-autopush</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/brambilla/Documents/0. Empresas/2. NEOCHARGE/Ops/pipeline-site/auto_push.sh</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/brambilla/Documents/0. Empresas/2. NEOCHARGE/Ops/pipeline-site/.git/refs/heads/main</string>
+    </array>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>StandardErrorPath</key>
+    <string>/Users/brambilla/Documents/0. Empresas/2. NEOCHARGE/Ops/pipeline-site/.autopush.err.log</string>
+</dict>
+</plist>
